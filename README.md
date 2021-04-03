@@ -1,2 +1,7 @@
-# DocumentsPage
-Documents by Liziqian.
+#  Liziqian的文档
+
+一个文档页面，偶尔在上面写些东西。
+
+自制软件等也会将文档放在上面，但有些不会放在侧边栏里。
+
+目前侧边栏是复制docsify官网的，暂时懒得修改了。

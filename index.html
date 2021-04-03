@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Liziqian's Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app">
+    <nav>
+      <a href="/">主页</a>
+      <a href="/en-us/">English:us:</a>
+      <a href="/about/">关于</a>
+    </nav>
+  </div>
+  <script>
+    window.$docsify = {
+      name: 'Liziqian\'s Documents',
+      logo: 'https://liziqian.net/favicon.ico',
+      repo: 'liziqian1/DocumentsPage',
+      loadSidebar: true,
+      // loadNavbar: '_navbar.md',
+      subMaxLevel: 3,
+      themeColor: '#191919',
+      name: 'Liziqian\'s Documents',
+      nameLink: {
+        '/': '/',
+        '/en-us/': '/en-us/'
+      },
+      mergeNavbar: false,
+      notFoundPage: {
+        '/': '_404.md',
+        '/en-us': 'en-us/_404.md',
+      },
+      search: {
+        placeholder: {
+          '/': '搜索',
+          '/en-us/': 'Type to search'
+        },
+        noData: {
+          '/': '找不到结果',
+          '/en-us/': 'No Results'
+        }
+      }
+      
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//polyfill.io/v3/polyfill.min.js?features=String.prototype.normalize"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+</body>
+</html>
